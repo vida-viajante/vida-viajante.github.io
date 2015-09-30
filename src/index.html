@@ -1,39 +1,94 @@
 ---
-layout: default
-title: Home
+title: Dopetrope
+layout: landing
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+<!-- Main -->
+<div class="row">
+  <div class="12u">
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <!-- Portfolio -->
+    <section>
+      <header class="major">
+        <h2>My Portfolio</h2>
+      </header>
+      <div class="row">
+        <div class="4u">
+          <section class="box">
+            <a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic02.jpg" alt="" /></a>
+            <header>
+              <h3>Ipsum feugiat et dolor</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+            <footer>
+              <a href="#" class="button alt">Find out more</a>
+            </footer>
+          </section>
+        </div>
+        <div class="4u">
+          <section class="box">
+            <a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic03.jpg" alt="" /></a>
+            <header>
+              <h3>Sed etiam lorem nulla</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+            <footer>
+              <a href="#" class="button alt">Find out more</a>
+            </footer>
+          </section>
+        </div>
+        <div class="4u">
+          <section class="box">
+            <a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic04.jpg" alt="" /></a>
+            <header>
+              <h3>Consequat et tempus</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+            <footer>
+              <a href="#" class="button alt">Find out more</a>
+            </footer>
+          </section>
+        </div>
+      </div>
+      <div class="row">
+        <div class="4u">
+          <section class="box">
+            <a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic05.jpg" alt="" /></a>
+            <header>
+              <h3>Blandit sed adipiscing</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+            <footer>
+              <a href="#" class="button alt">Find out more</a>
+            </footer>
+          </section>
+        </div>
+        <div class="4u">
+          <section class="box">
+            <a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic06.jpg" alt="" /></a>
+            <header>
+              <h3>Etiam nisl consequat</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+            <footer>
+              <a href="#" class="button alt">Find out more</a>
+            </footer>
+          </section>
+        </div>
+        <div class="4u">
+          <section class="box">
+            <a href="#" class="image featured"><img src="{{ site.baseurl }}/assets/images/pic07.jpg" alt="" /></a>
+            <header>
+              <h3>Dolore nisl feugiat</h3>
+            </header>
+            <p>Lorem ipsum dolor sit amet sit veroeros sed amet blandit consequat veroeros lorem blandit  adipiscing et feugiat phasellus tempus dolore ipsum lorem dolore.</p>
+            <footer>
+              <a href="#" class="button alt">Find out more</a>
+            </footer>
+          </section>
+        </div>
+      </div>
+    </section>
 
-    {{ post.excerpt }}
-
-    <a href="{{ post.url }}">Read more &raquo;</a>
   </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="/page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="/">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
 </div>

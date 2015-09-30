@@ -2,6 +2,8 @@
 layout: post
 date: 2014-03-03
 title:  Welcome to Jekyll!
+featured: /assets/images/pic02.jpg
+author: schiller
 categories: jekyll
 ---
 

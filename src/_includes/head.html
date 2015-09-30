@@ -13,16 +13,37 @@
     {% endif %}
   </title>
 
+  <!-- build:js /assets/stylesheets/ie/html5shiv.js -->
+  <!--[if lte IE 8]><script src="/assets/stylesheets/ie/html5shiv.js"></script><![endif]-->
+  <!-- endbuild -->
+
   <!-- CSS -->
   <!-- build:css /assets/stylesheets/style.min.css -->
+  <link rel="stylesheet" href="/assets/stylesheets/skel.css">
   <link rel="stylesheet" href="/assets/stylesheets/style.css">
   <!-- endbuild -->
-  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT+Serif:400,400italic,700|PT+Sans:400">
+  <!-- build:css /assets/stylesheets/style-main.css -->
+  <link rel="stylesheet" href="/assets/stylesheets/style-main.css">
+  <!-- endbuild -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
   <!-- JS -->
   <!-- build:js /assets/javascript/all.min.js -->
-  <script src="/assets/javascript/javascript.js"></script> 
-  <script src="/assets/javascript/somejavascript.js"></script> 
+  <script src="{{ site.baseurl }}/assets/javascript/jquery.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/javascript/jquery.dropotron.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/javascript/skel.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/javascript/skel-layers.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/javascript/init.js"></script>
+  <!-- endbuild -->
+
+  <noscript>
+  <!-- build:css /assets/stylesheets/style-desktop.css -->
+  <link rel="stylesheet" href="/assets/stylesheets/style-desktop.css">
+  <!-- endbuild -->
+  </noscript>
+
+  <!-- build:css /assets/stylesheets/ie/v8.css -->
+  <!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/stylesheets/ie/v8.css" /><![endif]-->
   <!-- endbuild -->
 
   <!-- Icons -->

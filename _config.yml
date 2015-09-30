@@ -2,7 +2,7 @@
 # Can be used in your theme by calling 'site.title' and so on
 title: Vida Viajante
 description: Blog de viagem de Morgana Secco e Luiz Gustavo Schiller
-tagline: Wherever you go, go with all your heart
+tagline: 'Wherever you go, go with all your heart'
 url: localhost:4000
 
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
@@ -11,11 +11,21 @@ destination: serve
 
 # Same as the title etc for your site but can instead be
 # called by using 'site.author.name' and so on
-author:
-  name: Luiz Gustavo Schiller
-  email: schillerbr@gmail.com
-  bio: Engenheiro de computação e jogador de poker
-  twitter: luizschiller
+authors:
+  schiller:
+    name: Luiz Gustavo Schiller
+    email: schillerbr@gmail.com
+    bio: Engenheiro de computação e jogador de poker
+    twitter: luizschiller
+    facebook: luizgustavoschiller
+    google_plus: +LuizGustavoSchiller
+    linkedin: luizschiller
+    instagram: luizschiller
+  morgana:
+    name: Morgana Secco
+    email: morgasecco@hotmail.com
+    bio: Fotógrafa e mestre em engenharia química
+    twitter: morganasecco
 
 # general setting for Jekyll
 googleAnalytics: UA-XXXXX-X
@@ -42,4 +52,4 @@ markdown: redcarpet
 redcarpet:
   extensions: ['no_intra_emphasis', 'tables', 'fenced_code_blocks', 'autolink', 'smart',
               'strikethrough', 'superscript', 'underline', 'highlight', 'footnotes']
-highlighter: true
+highlighter: pygments

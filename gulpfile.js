@@ -125,13 +125,15 @@ gulp.task('html', ['styles'], function () {
   var assets = $.useref.assets({searchPath: 'serve'});
 
   return gulp.src('serve/**/*.html')
+    // useref has a bug with eol
+    .pipe($.eol())
     .pipe(assets)
     // Concatenate JavaScript files and preserve important comments
     .pipe($.if('*.js', $.uglify({preserveComments: 'some'})))
     // Minify CSS
     .pipe($.if('*.css', $.minifyCss()))
     // Start cache busting the files
-    .pipe($.revAll({ ignore: ['.eot', '.svg', '.ttf', '.woff'] }))
+    .pipe($.revAll({ ignore: ['.eot', '.svg', '.ttf', '.woff', '.jpg'] }))
     .pipe(assets.restore())
     // Conctenate your files based on what you specified in _layout/header.html
     .pipe($.useref())
