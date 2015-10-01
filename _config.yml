@@ -5,6 +5,11 @@ description: Blog de viagem de Morgana Secco e Luiz Gustavo Schiller
 tagline: 'Wherever you go, go with all your heart'
 url: localhost:4000
 
+twitter: VidaViajante
+facebook: vidaviajante
+google_plus: +VidaviajanteBrasil
+instagram: blogvidaviajante
+
 # Used so Jekyll outputs the site correctly so Gulp can do what it wants
 source: src
 destination: serve
@@ -26,9 +31,12 @@ authors:
     email: morgasecco@hotmail.com
     bio: Fotógrafa e mestre em engenharia química
     twitter: morganasecco
+    facebook: morgana.secco
+    google_plus: +MorganaSecco
+    instagram: morganasecco
 
 # general setting for Jekyll
-googleAnalytics: UA-XXXXX-X
+googleAnalytics: UA-60191520-1
 
 # _config.build.yml overwrites these options when you run `gulp build`
 # Enables future posts (posts with dates in the future) and drafts

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: right-sidebar
 date: 2014-03-02
 title: Introducing Poole
 featured: /assets/images/pic05.jpg

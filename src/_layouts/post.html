@@ -2,14 +2,21 @@
 layout: default
 ---
 
-{% include nav.html %}
+<!-- Header -->
+<div id="header-wrapper">
+  <div id="header">
+
+    {% include nav.html %}
+
+  </div>
+</div>
 
 <div id="main-wrapper">
 	<div class="container">
 		<div class="row">
 			<div class="12u">
 
-			<!-- Blog -->
+				<!-- Blog -->
 				<section>
 					<header class="major">
 						<h2>{{ page.title }}</h2>
@@ -19,7 +26,7 @@ layout: default
 						<div class="8u -2u">
 							<section class="box">
 								<a href="#" class="image featured"><img src="{{ site.baseurl }}{{ page.featured }}" alt="" /></a>
-								{{ page.content }}
+								{{ content }}
 							</section>
 						</div>
 					</div>

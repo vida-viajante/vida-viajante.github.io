@@ -3,7 +3,14 @@ title: Blog
 layout: default
 ---
 
-{% include nav.html %}
+<!-- Header -->
+<div id="header-wrapper">
+  <div id="header">
+
+    {% include nav.html %}
+
+  </div>
+</div>
 
 <!-- Main -->
 <div id="main-wrapper">
@@ -14,13 +21,13 @@ layout: default
         <!-- Blog -->
         <section>
           <header class="major">
-            <h2>The Blog</h2>
+            <h2>O Blog</h2>
           </header>
           {% for post in site.posts offset: 0 limit: 4 %}
           <div class="row">
             <div class="10u -1u">
               <section class="box">
-                <a href="#" class="image featured"><img src="{{ site.baseurl }}{{ post.featured }}" alt="" /></a>
+                <a href="{{ site.baseurl }}{{ post.url }}" class="image featured"><img src="{{ site.baseurl }}{{ post.featured }}" alt="" /></a>
                 <header>
                   <h3>{{ post.title }}</h3>
                   <p>Posted {{ post.date | date_to_string }}</p>
@@ -28,8 +35,8 @@ layout: default
                 {{ post.excerpt }}
                 <footer>
                   <ul class="actions">
-                    <li><a href="{{ site.baseurl }}{{ post.url }}" class="button icon fa-file-text">Continue Reading</a></li>
-                    <li><a href="#" class="button alt icon fa-comment">33 comments</a></li>
+                    <li><a href="{{ site.baseurl }}{{ post.url }}" class="button icon fa-file-text">Continue Lendo</a></li>
+                    <!-- <li><a href="#" class="button alt icon fa-comment">33 commentários</a></li> -->
                   </ul>
                 </footer>
               </section>
