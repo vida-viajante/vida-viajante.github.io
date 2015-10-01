@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>www.vidaviajante.com.br/</loc>
+    <lastmod>2015-09-30T21:58:45-03:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+    <url>
+      <loc>www.vidaviajante.com.br/jekyll/welcome-to-jekyll.html</loc>
+      
+        <lastmod>2014-03-03T00:00:00-03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+    <url>
+      <loc>www.vidaviajante.com.br/jekyll/poole/introducing-poole.html</loc>
+      
+        <lastmod>2014-03-02T00:00:00-03:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+  
+  
+  <url>
+    <loc>www.vidaviajante.com.br/404.html</loc>
+    
+      <lastmod>2015-09-30T21:58:45-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>www.vidaviajante.com.br/atom.xml</loc>
+    
+      <lastmod>2015-09-30T21:58:45-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>www.vidaviajante.com.br/blog/index.html</loc>
+    
+      <lastmod>2015-09-30T21:58:45-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>www.vidaviajante.com.br/index.html</loc>
+    
+      <lastmod>2015-09-30T21:58:45-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>www.vidaviajante.com.br/assets/javascript/init.js</loc>
+    
+      <lastmod>2015-09-30T21:58:45-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>www.vidaviajante.com.br/left-sidebar.html</loc>
+    
+      <lastmod>2015-09-30T21:58:45-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>www.vidaviajante.com.br/no-sidebar.html</loc>
+    
+      <lastmod>2015-09-30T21:58:45-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>www.vidaviajante.com.br/right-sidebar.html</loc>
+    
+      <lastmod>2015-09-30T21:58:45-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+  <url>
+    <loc>www.vidaviajante.com.br/sitemap.xml</loc>
+    
+      <lastmod>2015-09-30T21:58:45-03:00</lastmod>
+    
+    
+      <changefreq>monthly</changefreq>
+    
+    
+      <priority>0.3</priority>
+    
+  </url>
+  
+</urlset>
