@@ -3,7 +3,43 @@ layout: default
 title: "404: Page not found"
 ---
 
-<div class="page">
-  <h1 class="page-title">404: Page not found</h1>
-  <p class="lead">Sorry, we've misplaced that URL or it's pointing to something that doesn't exist. <a href="/">Head back home</a> to try finding it again.</p>
+<!-- Header -->
+<div id="header-wrapper">
+  <div id="header">
+
+    {% include nav.html %}
+
+  </div>
+</div>
+
+<div id="main-wrapper">
+  <div class="container">
+
+    <!-- Main -->
+    <div class="row">
+      <div class="12u">
+
+        <!-- Blog -->
+        <section>
+          <div class="row">
+            <div class="10u -1u">
+              <section class="box">
+                <header>
+                  <h3>404: Página não encontrada</h3>
+                </header>
+                Oops! Parece que a página que você estava procurando não existe.
+                <footer>
+                  <ul class="actions">
+                    <li><a href="/" class="button icon fa-file-text"> Voltar para a Home </a></li>
+                  </ul>
+                </footer>
+              </section>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>   
+
+  </div>
 </div>

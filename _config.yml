@@ -51,7 +51,7 @@ limit_posts: 10
 relative_permalinks: true
 permalink: none
 paginate: 10
-paginate_path: 'page:num'
+paginate_path: '/blog/page:num/'
 excerpt_separator: '<!--more-->'
 
 # Markdown library

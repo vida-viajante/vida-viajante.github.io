@@ -17,7 +17,9 @@ layout: default
 
     <!-- Content -->
     <article class="box post">
-      <a href="#" class="image featured"><img src="{{ site.baseurl }}{{ page.featured }}" alt="" /></a>
+      {% if page.featured %}
+      <div class="image featured"><img src="{{ page.featured | prepend: site.baseurl | replace: '//', '/' }}" alt="{{ page.title }}" /></div>
+      {% endif %}
       <header>
         <h2>{{ page.title }}</h2>
         <p>Posted {{ page.date | date_to_string }}</p>
